@@ -1,0 +1,14 @@
+.sidebarText{
+    margin-block: 10px ;
+    writing-mode: horizontal-tb;
+    display: inline-flex;
+    flex-flow: row;
+}
+
+
+.sidebarText_title{
+    margin-left: 2px; 
+    font-size: 12px;
+    color: gray;
+    cursor: pointer;
+}

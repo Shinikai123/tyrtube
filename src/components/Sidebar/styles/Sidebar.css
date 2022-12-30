@@ -1,0 +1,55 @@
+.sidebar{
+    height: 100%;
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    flex-direction: column;
+    background-color: white;
+    width: 230px;
+    scrollbar-color: #606060;
+    scrollbar-width: thin;
+}
+
+.sidebar:hover{
+    overflow-y: scroll;
+}
+
+
+::-webkit-scrollbar{
+    background: transparent;
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #606060;
+    border-radius: 100px;
+}
+
+.sidebar button{
+    border: none;
+    outline: none;
+    text-decoration: none;
+    background-color: white;
+}
+
+.sidebar button:hover{
+    background-color: #eee;
+}
+
+.sidebar button:focus{
+    background-color: #eee;
+}
+
+.sidebar > hr{
+    height: 2px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar_copyright{
+    margin: 60px;
+    color: gray;
+    font-size: 12px;
+}
